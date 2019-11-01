@@ -1,15 +1,31 @@
 #container{
     display: flex;
+    /*Align items horizontal*/
     /*justify-content: space-evenly;
     flex-direction: column;*/
-    flex-direction: row;
+    /*flex-direction: row;*/
  /*   flex-direction: row-reverse;*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
    /* flex-flow: row nowrap;*/
+    /*justify-content: end;*/
+    justify-content: center;
+    /*justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;*/    
+    height: 200px;
+    align-items: center;
+    /*Align items vertical (must be a height)*/
+    align-items: baseline;
 
+   /*
+   Options:
+   flex-start
+   flex-end
+   center
+   baseline
+   stretch
 
-
-}
+   */
 
 .item {
 background: #f4f4f4f4;
