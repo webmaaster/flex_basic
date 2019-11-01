@@ -32,6 +32,7 @@ align-content: center;
 Options:
 flex-end
 flex-start
+}*/
 }
 
  .item {
@@ -44,7 +45,21 @@ flex-start
     flex-basis: 200px;  
 }
 
+.item2 {
+    /* Align single item vertical */
+    align-self: center;
+    /*Optios:
+     flex-start
+     flex-end
+     center
+     baseline
+     stretch
+
+    */
+
+}
+/*
 .item: first-child{
     flex: 3;
 
-}
+}*/
