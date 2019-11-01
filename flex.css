@@ -26,8 +26,12 @@
    center
    baseline
    stretch
-
-   */
+*/
+align-content: center;
+/*
+Options:
+flex-end
+flex-start
 }
 
  .item {
